@@ -7,4 +7,4 @@ const recordingText = fs.readFileSync('./recording.json', 'utf8');
 const recording = parse(JSON.parse(recordingText));
 // Create a runner and execute the script.
 const runner = await createRunner(recording);
-await runner.run();
+await runner.run
